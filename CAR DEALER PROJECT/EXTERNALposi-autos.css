@@ -1,0 +1,495 @@
+@media (min-width: 280px) and (max-width: 500px){
+	.nav{
+	color: white;
+	background-color: black;
+	height: 60px;
+	width: 415px;
+	margin-left: -10px;
+	margin-top: -10px;
+	position: fixed;
+	/*z-index: 12;*/
+	}
+	.header{
+	color: white;
+	background-color: darkred;
+	font-size: 26px;
+	padding-left: 5px;
+	width: 415px;
+	margin-left: -10px;
+	margin-top: 30px;
+	height: 60px;
+	position: fixed;
+	/*z-index: 12;*/
+	}
+	.animate{
+		height: 400px;
+		background-size: 400px;
+		/*background-size: contain;*/
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		animation: change 15s infinite step-end;
+	}
+	@keyframes change{
+		0%
+		{
+			background-image: url(./images/iwantcar-en.JPG);
+		}
+		20%
+		{
+			background-image: url(./images/iwantbus-en.JPG);
+		}
+		40%
+		{
+			background-image: url(./images/iwantengin-en.JPG);
+		}
+		60%
+		{
+			background-image: url(./images/iwantexarmy-en.JPG);
+		}
+		80%
+		{
+			background-image: url(./images/iwantpart-en.PNG);
+		}
+		100%
+		{
+			background-image: url(./images/iwantstruck-en.JPG);
+		}
+	}
+	.dealer{
+		margin-top: -70px;
+		/*margin-left: 120px;*/
+		padding-left: 60px;
+		background-color: darkred;
+		width: 335px;
+		color: white;
+		height: 50px;
+		font-size: 27px;
+		/*font-family: fantasy;*/
+		font-weight: bold;
+	}
+	.tok{
+		margin-top: -50px;
+		padding-left: 100px;
+		color: white;
+		font-size: 18px;
+	}
+	.carimage{
+		width: 400px;
+	}
+	.vehicle{
+		padding-left: 100px;
+		font-size: 35px;
+		color: navy;
+	}
+	.animate2{
+		height: 400px;
+		background-size: 400px;
+		/*background-size: contain;*/
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		animation: change2 30s infinite step-end;
+	}
+	@keyframes change2{
+		0%
+		{
+			background-image: url(./images/car1.JPG);
+		}
+		10%
+		{
+			background-image: url(./images/car2.JPG);
+		}
+		20%
+		{
+			background-image: url(./images/car3.JPG);
+		}
+		30%
+		{
+			background-image: url(./images/car4.JPG);
+		}
+		40%
+		{
+			background-image: url(./images/car5.JPG);
+		}
+		50%
+		{
+			background-image: url(./images/car6.JPG);
+		}
+		60%
+		{
+			background-image: url(./images/car7.JPG);
+		}
+		70%
+		{
+			background-image: url(./images/car8.JPG);
+		}
+		80%
+		{
+			background-image: url(./images/car9.JPG);
+		}
+		90%
+		{
+			background-image: url(./images/car10.JPG);
+		}
+		100%
+		{
+			background-image: url(./images/car11.JPG);
+		}
+	}
+	.animate3{
+		height: 400px;
+		margin-top: 40px;
+		background-size: 400px;
+		/*background-size: contain;*/
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		animation: change3 30s infinite step-end;
+	}
+	@keyframes change3{
+		0%
+		{
+			background-image: url(./images/car11.JPG);
+		}
+		10%
+		{
+			background-image: url(./images/car10.JPG);
+		}
+		20%
+		{
+			background-image: url(./images/car9.JPG);
+		}
+		30%
+		{
+			background-image: url(./images/car8.JPG);
+		}
+		40%
+		{
+			background-image: url(./images/car7.JPG);
+		}
+		50%
+		{
+			background-image: url(./images/car6.JPG);
+		}
+		60%
+		{
+			background-image: url(./images/car5.JPG);
+		}
+		70%
+		{
+			background-image: url(./images/car4.JPG);
+		}
+		80%
+		{
+			background-image: url(./images/car3.JPG);
+		}
+		90%
+		{
+			background-image: url(./images/car2.JPG);
+		}
+		100%
+		{
+			background-image: url(./images/car1.JPG);
+		}
+	}
+	.fairly{
+		padding-left: 100px;
+		font-size: 35px;
+		margin-bottom: -30px;
+		color: red;
+	}
+	.fairly2{
+		padding-left: 120px;
+		font-family: sans-serif;
+		margin-top: -16px;
+	}
+	.ending{
+		background-color: darkred;
+		height: 200px;
+		width: 355px;
+		color: white;
+		font-family: sans-serif;
+		font-size: 20px;
+		padding-top: 20px;
+		padding-left: 50px;
+	}
+	.social1{
+		margin-left: 30px;
+	}
+	.social2{
+		margin-left: 30px;
+	}
+	.social3{
+		margin-left: 30px;
+	}
+	.social4{
+		margin-left: 30px;
+	}
+	a{
+		color: yellow;
+		text-decoration: none;
+	}
+	a:active{
+		color: red;
+	}
+	a:hover{
+		color: green;
+	}
+}
+@media (min-width: 500px) and (max-width: 1024px){
+	.nav{
+	color: white;
+	background-color: black;
+	height: 60px;
+	width: 830px;
+	margin-left: -10px;
+	margin-top: -10px;
+	position: fixed;
+	/*z-index: 12;*/
+	}
+	.header{
+	color: white;
+	background-color: darkred;
+	font-size: 26px;
+	padding-left: 5px;
+	width: 830px;
+	margin-left: -10px;
+	margin-top: 30px;
+	height: 60px;
+	position: fixed;
+	/*z-index: 12;*/
+	}
+	.social1{
+		margin-left: 120px;
+	}
+	.social2{
+		margin-left: 120px;
+	}
+	.social3{
+		margin-left: 120px;
+	}
+	.social4{
+		margin-left: 120px;
+	}
+	a{
+		color: yellow;
+		text-decoration: none;
+	}
+	a:active{
+		color: red;
+	}
+	a:hover{
+		color: green;
+	}
+	.contact{
+		padding-left: 350px;
+	}
+	.animate{
+		height: 400px;
+		background-size: 700px;
+		/*background-size: contain;*/
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		animation: change 15s infinite step-end;
+	}
+	@keyframes change{
+		0%
+		{
+			background-image: url(./images/iwantcar-en.JPG);
+		}
+		20%
+		{
+			background-image: url(./images/iwantbus-en.JPG);
+		}
+		40%
+		{
+			background-image: url(./images/iwantengin-en.JPG);
+		}
+		60%
+		{
+			background-image: url(./images/iwantexarmy-en.JPG);
+		}
+		80%
+		{
+			background-image: url(./images/iwantpart-en.PNG);
+		}
+		100%
+		{
+			background-image: url(./images/iwantstruck-en.JPG);
+		}
+	}
+	.dealer{
+		margin-top: 5px;
+		/*margin-left: 120px;*/
+		padding-left: 230px;
+		background-color: darkred;
+		width: 560px;
+		color: white;
+		height: 50px;
+		font-size: 27px;
+		/*font-family: fantasy;*/
+		font-weight: bold;
+	}
+	.tok{
+		margin-top: -50px;
+		padding-left: 270px;
+		color: white;
+		font-size: 18px;
+	}
+	.carimage{
+		width: 780px;
+	}
+	.carvideo{
+		width: 780px;
+	}
+	.log{
+		width: 780px;
+	}
+	.vehicle{
+		/*padding-left: 200px;*/
+		text-align: center;
+		font-size: 60px;
+		color: navy;
+	}
+	.animate2{
+		height: 800px;
+		background-size: 800px;
+		/*background-size: contain;*/
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		animation: change2 30s infinite step-end;
+	}
+	@keyframes change2{
+		0%
+		{
+			background-image: url(./images/car1.JPG);
+		}
+		10%
+		{
+			background-image: url(./images/car2.JPG);
+		}
+		20%
+		{
+			background-image: url(./images/car3.JPG);
+		}
+		30%
+		{
+			background-image: url(./images/car4.JPG);
+		}
+		40%
+		{
+			background-image: url(./images/car5.JPG);
+		}
+		50%
+		{
+			background-image: url(./images/car6.JPG);
+		}
+		60%
+		{
+			background-image: url(./images/car7.JPG);
+		}
+		70%
+		{
+			background-image: url(./images/car8.JPG);
+		}
+		80%
+		{
+			background-image: url(./images/car9.JPG);
+		}
+		90%
+		{
+			background-image: url(./images/car10.JPG);
+		}
+		100%
+		{
+			background-image: url(./images/car11.JPG);
+		}
+	}
+	.fairly{
+		/*padding-left: 100px;*/
+		text-align: center;
+		font-size: 60px;
+		margin-bottom: -30px;
+		color: red;
+	}
+	.animate3{
+		height: 800px;
+		margin-top: 40px;
+		background-size: 780px;
+		/*background-size: contain;*/
+		background-repeat: no-repeat;
+		/*background-position: fixed;*/
+		/*max-width: 100px;*/
+		animation: change3 30s infinite step-end;
+	}
+	@keyframes change3{
+		0%
+		{
+			background-image: url(./images/car11.JPG);
+		}
+		10%
+		{
+			background-image: url(./images/car10.JPG);
+		}
+		20%
+		{
+			background-image: url(./images/car9.JPG);
+		}
+		30%
+		{
+			background-image: url(./images/car8.JPG);
+		}
+		40%
+		{
+			background-image: url(./images/car7.JPG);
+		}
+		50%
+		{
+			background-image: url(./images/car6.JPG);
+		}
+		60%
+		{
+			background-image: url(./images/car5.JPG);
+		}
+		70%
+		{
+			background-image: url(./images/car4.JPG);
+		}
+		80%
+		{
+			background-image: url(./images/car3.JPG);
+		}
+		90%
+		{
+			background-image: url(./images/car2.JPG);
+		}
+		100%
+		{
+			background-image: url(./images/car1.JPG);
+		}
+	}
+	.fairly2{
+		/*padding-left: 120px;*/
+		text-align: center;
+		font-size: 30px;
+		font-family: sans-serif;
+		margin-top: -16px;
+	}
+	.ending{
+		background-color: darkred;
+		height: 200px;
+		width: 783px;
+		color: white;
+		font-family: sans-serif;
+		font-size: 20px;
+		padding-top: 20px;
+		/*padding-left: 50px;*/
+		text-align: center;
+	}
+}
+
+
+
